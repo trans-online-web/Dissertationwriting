@@ -1,5 +1,14 @@
 @extends('layouts.app')
 
+@section('title')
+Here is a title!
+@stop
+@section('meta_tags')
+<meta name="title" content="agvuirh uabvrioh aiobvrho aoibvrio">
+<meta name="decsription" content="agvuirh uabvrioh aiobvrho aoibvrio">
+<meta name="keywords" content="auefbv ailbvoea vidbvaiove eiodbvori eui">
+@stop
+
 @section('content')
 	<!--Banner Area Start-->
 	<section id="content-banner">
@@ -100,8 +109,8 @@
 				<div class="col-md-6">
 					<!-- right side text start -->
 					<div class="vision-text ">
-						<h2>We don't leave any stone unturned</h2>
-						<p>sed quia non numquam eius modi tempora ut labore et dolore magnam aliquam quaerat voluptatem. ut enim ad minima veniam,quis nistrum exercitationem ullam corporis suscipris laboriosam, nisi ut ut aliquidex. Nemo enim ipsam voluptatem quia voluptas sit aspernatur auto odit aut fugit,sed quia consequuntur magni dolores.</p>
+						<h2>We are here for you</h2>
+						<p>When you get involved with the right company, everything just seems right. Make a “need help with my dissertation” order by clicking on the “Order” icon on our website and follow the instructions given. You will have all the time to do your other activities as you wait for a quality paper that meets all your requirements to be delivered to you.  It is not easy when you are not used to it. Let those who major in the field make your work easier as they enjoy doing the work. </p>
 						<!-- button start -->
 						<div class="sub-btn d-flex ">
 							<div class="play-btn vision">

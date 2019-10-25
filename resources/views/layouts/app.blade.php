@@ -6,8 +6,9 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    @yield('meta_tags')
 
-    <title>Dissertationwriting</title>
+    <title>Dissertationwriting | @yield('title')</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>

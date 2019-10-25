@@ -1,5 +1,14 @@
 @extends('layouts.app')
 
+@section('title')
+Here is a title!
+@stop
+@section('meta_tags')
+<meta name="title" content="agvuirh uabvrioh aiobvrho aoibvrio">
+<meta name="decsription" content="agvuirh uabvrioh aiobvrho aoibvrio">
+<meta name="keywords" content="auefbv ailbvoea vidbvaiove eiodbvori eui">
+@stop
+
 @section('content')
 		<!--Banner Area Start-->
 	    <section id="content-banner">
