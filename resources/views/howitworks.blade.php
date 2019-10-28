@@ -50,8 +50,38 @@ Here is a title!
 	            <div class="col-md-6">
 	                <!-- right side text start -->
 	                <div class="service-vision-text">
-	                    <h2>We don't leave any stone unturned</h2>
-	                    <p>sed quia non numquam eius modi tempora ut labore et dolore magnam aliquam quaerat voluptatem. ut enim ad minima veniam,quis nistrum exercitationem ullam corporis suscipris laboriosam, nisi ut ut aliquidex. Nemo enim ipsam voluptatem quia voluptas sit aspernatur auto odit aut fugit,sed quia consequuntur magni dolores.</p>
+	                    <h2>Create an account</h2>
+	                    <p>Register on our website in a few clicks. Fill in the required infomation and sign up.</p>
+	                    <!-- button start -->
+	                    <div class="sub-btn d-flex ">
+	                        <div class="play-btn vision">
+	                            <a href="#!" class="btn">Register</a>
+	                        </div>
+	                    </div> <!-- button end -->
+	                </div><!-- right side text end -->
+	            </div>
+	        </div><!-- row 2 end -->
+	    </div> <!-- main container end -->
+	</section>
+	<!-- Mission vision are end -->
+
+	<!-- Mission vision are start -->
+	<section id="service-vision">
+	    <!-- main container start -->
+	    <div class="container-fluid">
+	        <!-- row 2 start -->
+	        <div class="row">
+	            <div class="col-md-6">
+	                <!-- left img start -->
+	                <div class="service-vision-img">
+	                    <img src="img/vision.png" alt="icon">
+	                </div><!-- left img end -->
+	            </div>
+	            <div class="col-md-6">
+	                <!-- right side text start -->
+	                <div class="service-vision-text">
+	                    <h2>Fill order form</h2>
+	                    <p>Upload detailed instructions and any related materials. </p>
 	                    <!-- button start -->
 	                    <div class="sub-btn d-flex ">
 	                        <div class="play-btn vision">
@@ -80,8 +110,8 @@ Here is a title!
 	            <div class="col-md-6">
 	                <!-- right side text start -->
 	                <div class="service-vision-text">
-	                    <h2>We don't leave any stone unturned</h2>
-	                    <p>sed quia non numquam eius modi tempora ut labore et dolore magnam aliquam quaerat voluptatem. ut enim ad minima veniam,quis nistrum exercitationem ullam corporis suscipris laboriosam, nisi ut ut aliquidex. Nemo enim ipsam voluptatem quia voluptas sit aspernatur auto odit aut fugit,sed quia consequuntur magni dolores.</p>
+	                    <h2>Submit your payment</h2>
+	                    <p>Add funds to your balance and use it to pay for orders after you are 100% satisfied.</p>
 	                    <!-- button start -->
 	                    <div class="sub-btn d-flex ">
 	                        <div class="play-btn vision">
@@ -110,38 +140,8 @@ Here is a title!
 	            <div class="col-md-6">
 	                <!-- right side text start -->
 	                <div class="service-vision-text">
-	                    <h2>We don't leave any stone unturned</h2>
-	                    <p>sed quia non numquam eius modi tempora ut labore et dolore magnam aliquam quaerat voluptatem. ut enim ad minima veniam,quis nistrum exercitationem ullam corporis suscipris laboriosam, nisi ut ut aliquidex. Nemo enim ipsam voluptatem quia voluptas sit aspernatur auto odit aut fugit,sed quia consequuntur magni dolores.</p>
-	                    <!-- button start -->
-	                    <div class="sub-btn d-flex ">
-	                        <div class="play-btn vision">
-	                            <a href="#!" class="btn">Learn More</a>
-	                        </div>
-	                    </div> <!-- button end -->
-	                </div><!-- right side text end -->
-	            </div>
-	        </div><!-- row 2 end -->
-	    </div> <!-- main container end -->
-	</section>
-	<!-- Mission vision are end -->
-
-	<!-- Mission vision are start -->
-	<section id="service-vision">
-	    <!-- main container start -->
-	    <div class="container-fluid">
-	        <!-- row 2 start -->
-	        <div class="row">
-	            <div class="col-md-6">
-	                <!-- left img start -->
-	                <div class="service-vision-img">
-	                    <img src="img/vision.png" alt="icon">
-	                </div><!-- left img end -->
-	            </div>
-	            <div class="col-md-6">
-	                <!-- right side text start -->
-	                <div class="service-vision-text">
-	                    <h2>We don't leave any stone unturned</h2>
-	                    <p>sed quia non numquam eius modi tempora ut labore et dolore magnam aliquam quaerat voluptatem. ut enim ad minima veniam,quis nistrum exercitationem ullam corporis suscipris laboriosam, nisi ut ut aliquidex. Nemo enim ipsam voluptatem quia voluptas sit aspernatur auto odit aut fugit,sed quia consequuntur magni dolores.</p>
+	                    <h2>Recieve your order</h2>
+	                    <p>Review your finished order and leave feedback for your writer. Pay only when all requirements are met and you are 100% satisfied with the result.</p>
 	                    <!-- button start -->
 	                    <div class="sub-btn d-flex ">
 	                        <div class="play-btn vision">
