@@ -55,7 +55,7 @@ Here is a title!
 	                    <!-- button start -->
 	                    <div class="sub-btn d-flex ">
 	                        <div class="play-btn vision">
-	                            <a href="#!" class="btn">Register</a>
+	                            <a href="/register" class="btn">Register</a>
 	                        </div>
 	                    </div> <!-- button end -->
 	                </div><!-- right side text end -->
@@ -85,7 +85,7 @@ Here is a title!
 	                    <!-- button start -->
 	                    <div class="sub-btn d-flex ">
 	                        <div class="play-btn vision">
-	                            <a href="#!" class="btn">Learn More</a>
+	                            <a href="#!" class="btn">Order Now</a>
 	                        </div>
 	                    </div> <!-- button end -->
 	                </div><!-- right side text end -->
@@ -152,6 +152,17 @@ Here is a title!
 	            </div>
 	        </div><!-- row 2 end -->
 	    </div> <!-- main container end -->
+	</section>
+	<section class="service-vision text-centre" style="background-color: #85bdf5; line-height: 32px;">
+		<div class="container p-4">
+			<div class="row">
+	        	<div class="col-md-12 text-center">
+	        		<h2 class="p-2">Don't wait any longer!</h2>
+	        		<h6>Submit you order now and get it done <br> by our proffesional writers</h6>
+	        		<a href="#" class="btn btn-primary">Order Now</a>
+	        	</div>
+	        </div>
+	    </div>
 	</section>
 	<!-- Mission vision are end -->
 	@include('includes.footer')
