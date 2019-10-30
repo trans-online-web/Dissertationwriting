@@ -30,6 +30,7 @@
         "laravel-vue-pagination": "^2.3.0",
         "luxon": "^1.17.2",
         "moment": "^2.24.0",
+        "pusher": "^3.0.0",
         "pusher-js": "^5.0.0",
         "sweetalert2": "^8.16.2",
         "vform": "^1.0.1",
