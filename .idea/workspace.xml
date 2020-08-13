@@ -2,15 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d67399ab-a3c2-4ce6-9490-5edcda03281d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Events/ChatEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/MessangerController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Messenger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_30_084612_create_messengers_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Blog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Blog/BlogContent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Blog/BlogUser.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/BlogCategories.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Completed.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Disputed.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/MyDashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Myprofile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Onprogress.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Payment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Pending.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Readmore.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Refaral.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Revision.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/SampleClient.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/SampleContent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Samples.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/profile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/systemLog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/userDetails.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Completed.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Unpaid.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dsiputed.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/faq.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/myprofile.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/onprogress.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/privacy_policy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/refaral.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/revision.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/sample.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/sampleContent.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/terms.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/MyOrderDetails.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/MyOrderDetails.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/OrderDetails.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/OrderDetails.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/writting-website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/writting-website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/myorders.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/myorders.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +69,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -138,11 +182,16 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../writting-website" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -152,18 +201,6 @@
       <recent name="C:\xampp\htdocs\writting-website\resources\js\components" />
       <recent name="C:\xampp\htdocs\writting-website\resources\views\layouts" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -205,7 +242,10 @@
       <workItem from="1567665710024" duration="4168000" />
       <workItem from="1571909428263" duration="2883000" />
       <workItem from="1572349847142" duration="4007000" />
-      <workItem from="1572414588735" duration="1664000" />
+      <workItem from="1572414588735" duration="8212000" />
+      <workItem from="1597147395128" duration="2900000" />
+      <workItem from="1597220636937" duration="1211000" />
+      <workItem from="1597302013905" duration="3810000" />
     </task>
     <servers />
   </component>
@@ -227,5 +267,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1597223278214">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1597223278214" />
+    <state x="517" y="307" key="NewPhpFileDialog" timestamp="1597150445960">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="517" y="307" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1597150445960" />
   </component>
 </project>

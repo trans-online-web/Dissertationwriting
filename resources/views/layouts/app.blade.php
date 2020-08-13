@@ -42,8 +42,8 @@
 </head>
 <body>
     <div id="app">
-        @include('includes.nav')
-        
+        <!--@include('includes.nav')-->
+
         @yield('content')
     </div>
 
