@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container" v-if="$gate.isAdmin()">
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card mt-4">
@@ -14,24 +14,24 @@
                     <div class="card-body">
                         <div class="card-body table-responsive p-0">
                             <table class="table table-hover">
-                              <thead>
+                                <thead>
                                 <tr>
-                                  <th>Title</th>
-                                  <th>Action</th>
+                                    <th>Title</th>
+                                    <th>Action</th>
                                 </tr>
-                              </thead>
-                              <tbody>
+                                </thead>
+                                <tbody>
                                 <tr v-for="level in levels.data" :key="level.id">
-                                  <td>{{level.name}}</td>
-                                  <td>
-                                      <a href="#" @click="deleteLevel(level.id)">
-                                        <i class="fa fa-trash p-1 text-danger"></i>
-                                      </a>
-                                  </td>
+                                    <td>{{level.name}}</td>
+                                    <td>
+                                        <a href="#" @click="deleteLevel(level.id)">
+                                            <i class="fa fa-trash p-1 text-danger"></i>
+                                        </a>
+                                    </td>
                                 </tr>
-                              </tbody>
+                                </tbody>
                             </table>
-                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,42 +71,42 @@
         data(){
             return{
                 levels: {},
-               form: new Form({
-                name: ''
-               })
+                form: new Form({
+                    name: ''
+                })
             }
         },
         methods:{
             deleteLevel(id){
                 console.log(id);
-              swal.fire({
-                  title: 'Are you sure?',
-                  text: "You won't be able to revert this!",
-                  //type: 'warning',
-                  showCancelButton: true,
-                  confirmButtonColor: '#3085d6',
-                  cancelButtonColor: '#d33',
-                  confirmButtonText: 'Yes, delete it!'
+                swal.fire({
+                    title: 'Are you sure?',
+                    text: "You won't be able to revert this!",
+                    //type: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Yes, delete it!'
                 }).then((result) => {
-                  if(result.value){
-                    this.form.delete("api/level/"+id).then(()=>{
-                      swal.fire(
-                        'Delete!',
-                        'Deleted!!',
-                        'success'
-                        )
+                    if(result.value){
+                        this.form.delete("api/level/"+id).then(()=>{
+                            swal.fire(
+                                'Delete!',
+                                'Deleted!!',
+                                'success'
+                            )
                             Fire.$emit('entry');
                         }).catch(()=>{
-                      swal.fire('Failed!','There was something wrong')
-                    });
+                            swal.fire('Failed!','There was something wrong')
+                        });
                     }
                 })
             },
             getLevels(){
-              axios.get("/api/level").then(({ data }) => ([this.levels = data]));
+                axios.get("/api/level").then(({ data }) => ([this.levels = data]));
             },
             addLevel(){
-              this.form.post('api/level')
+                this.form.post('api/level')
                     .then(() => {
                         Fire.$emit('entry');
                         toast.fire({
@@ -119,14 +119,14 @@
                     .catch(error => {
                         this.errors = error.response.data.errors;
                         swal.fire({
-                          type: 'error',
-                          title: 'Error!!',
-                          text: error.response.data.msg,
+                            type: 'error',
+                            title: 'Error!!',
+                            text: error.response.data.msg,
 
                         })
                     })
             },
-          newModal(){
+            newModal(){
                 this.form.reset();
                 $('#addnew').modal('show');
             },

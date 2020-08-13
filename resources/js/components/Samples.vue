@@ -97,11 +97,11 @@
                                 <div class="col">
                                     <div class="form-group">
                                         <label for="title">Paper Format</label>
-                                        <input v-model="form.format" type="text" class="form-control" name="format"
-                                               id="format"
-                                               placeholder="Format"
-                                               :class="{ 'is-invalid': form.errors.has('format') }">
-                                        <has-error :form="form" field="format"></has-error>
+                                        <input v-model="form.formatr" type="text" class="form-control" name="formatr"
+                                               id="formatr"
+                                               placeholder="Formatr"
+                                               :class="{ 'is-invalid': form.errors.has('formatr') }">
+                                        <has-error :form="form" field="formatr"></has-error>
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                     title: '',
                     subject: '',
                     type:'',
-                    format:'',
+                    formatr:'',
                     scontent: '',
                 })
             }

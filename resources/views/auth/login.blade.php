@@ -5,8 +5,8 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="space"></div>
-            <div class="signup-form">   
-                <form method="POST" action="{{ route('login') }}">
+            <div class="signup-form">
+                <form method="POST" action="{{ route('log') }}">
                     @csrf
                     <h2>Login</h2>
                     <div class="form-group">
@@ -41,7 +41,7 @@
                                 </label>
                             </div>
                         </div>
-                    </div>       
+                    </div>
                     <div class="form-group play-btn">
                         <button type="submit" class="btn btn-primary btn-block btn-lg">Login</button>
                     </div>
